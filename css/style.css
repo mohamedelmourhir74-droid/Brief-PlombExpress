@@ -1,1 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.site-header .logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+    font-weight: bold;
+    height: 40px;
+    width: 221px;
+}
+
+.container .nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    width: 320px;
+    height: 35px;
+}
+
+.container .nav-list li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #0866C2;
+}
+
+.btn {
+    height: 44px;
+    width: 171px;
+    background-color: #FF6418;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.hero {
+    background-color: #E7F1FB;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero .container .image {
+    width: 588px;
+    height: 464px;
+}
+
+.hero .container .titre {
+    width: 580px;
+    height: 189px;
+    color: #102A43;
+    font-size: 60px;
+}
+
+.hero .container .para {
+    font-size: 20px;
+    color: #486176;
+}
+
+.container .intervention {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 228px;
+    height: 16px;
+    color: #0866C2;
+}
+
+.hero .buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.hero .buttons .btn1 {
+    width: 218px;
+    height: 54px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    background-color: #FF6418;
+}
+
+.hero .buttons .btn2 {
+    width: 142px;
+    height: 54px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 14px;
+}
+
+
+
+.hero .bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.hero .bar .d1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 389.33px;
+    height: 36px;
+    gap: 10px;
+}
+
+.hero .bar .d2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 389.33px;
+    height: 36px;
+    gap: 10px;
+}
+
+.hero .bar .d3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 389.33px;
+    height: 36px;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+.services .list-services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services .presentation .surtitre {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #0866C2;
+}
+
+.services .presentation .titre {
+    display: flex;
+    justify-content: center;
+    font-size: 43px;
+}
+
+.services .presentation .introduction {
+    display: flex;
+    justify-content: center;
+    color: #486176;
+    font-size: 19px;
+}
+
+
+.services .list-services .carte1 {
+    border: 2px solid #e7e7e7;
+    border-radius: 10px;
+}
+
+.services .list-services .carte1 .details {
+    margin: 15px;
+}
+
+.services .list-services .carte1 .details p {
+    color: #486176;
+}
+
+.services .list-services .carte2 {
+    border: 2px solid #e7e7e7;
+    border-radius: 10px;
+}
+
+.services .list-services .carte2 .details2 {
+    margin: 15px;
+}
+
+.services .list-services .carte2 .details2 p {
+    color: #486176;
+}
+
+.services .list-services .carte3 {
+    border: 2px solid #e7e7e7;
+    border-radius: 10px;
+}
+
+.services .list-services .carte3 .details3 {
+    margin: 15px;
+}
+
+.services .list-services .carte3 .details3 p {
+    color: #486176;
+}
+
+.services .plomb-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.services .plomb-button .bttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    width: 239px;
+    height: 54px;
+    font-size: 18px;
+    border: 2px solid #e7e7e7;
+    border-radius: 10px;
+}
+
+.services .plomb-button .bttn .arr {
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+.choisir {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 
