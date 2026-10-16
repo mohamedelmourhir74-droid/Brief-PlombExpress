@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+.site-header .menu {
+    display: none;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -243,6 +247,294 @@ body {
 .choisir {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 64px;
+    margin-top: 80px;
+    margin-left: 104px;
+    margin-right: 104px;
 }
 
+.choisir .exigence .para {
+    color: #0866C2;
+    width: 205px;
+    height: 17px;
+    font-size: 12px;
+}
+
+.choisir .atouts .exigence .titre {
+    font-size: 32px;
+}
+
+.choisir .exigence .description {
+    color: #486176;
+    font-size: 15px;
+}
+
+
+
+
+.choisir .atouts .avantages .group1 {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.choisir .atouts .avantages .group1 .avantage1 .intitule {
+    width: 308px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.choisir .atouts .avantages .group1 .avantage1 .para {
+    color: #486176;
+}
+
+.choisir .atouts .avantages .group1 .avantage2 .intitule {
+    width: 308px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.choisir .atouts .avantages .group1 .avantage2 .para {
+    color: #486176;
+}
+
+.choisir .atouts .avantages .group2 {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.choisir .atouts .avantages .group2 .avantage1 .intitule {
+    width: 308px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.choisir .atouts .avantages .group2 .avantage1 .para {
+    color: #486176;
+}
+
+.choisir .atouts .avantages .group2 .avantage2 .intitule {
+    width: 308px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.choisir .atouts .avantages .group2 .avantage2 .para {
+    color: #486176;
+}
+
+
+
+.site-footer {
+    background-color: #102A43;
+}
+
+
+
+
+
+
+
+
+.site-footer .info-entreprise .marque .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.site-footer .info-entreprise .marque .logo h3 {
+    color: white;
+}
+
+.site-footer .info-entreprise .marque p {
+    color: #C2D0DD;
+}
+
+.site-footer .info-entreprise .marque .reseau {
+    display: flex;
+    gap: 35px;
+}
+
+.site-footer .info-entreprise .lien1 h3{
+    color: white;
+}
+
+.site-footer .info-entreprise .lien1 .list-lien {
+    list-style: none;
+    color: #C2D0DD;
+}
+
+.site-footer .info-entreprise .lien1 .list-lien li {
+    margin-top: 10px;
+}
+
+.site-footer .info-entreprise {
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-footer .info-entreprise .lien2 h3{
+    color: white;
+}
+
+.site-footer .info-entreprise .lien2 .list-lien {
+    list-style: none;
+    color: #C2D0DD;
+}
+
+.site-footer .info-entreprise .lien2 .list-lien li {
+    margin-top: 10px;
+}
+
+.site-footer .info-entreprise .coordonnées h3 {
+    color: #FFFF;
+}
+
+.site-footer .info-entreprise .coordonnées .coordonnée1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #C2D0DD;
+}
+
+.site-footer .info-entreprise .coordonnées .coordonnée2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #C2D0DD;
+}
+
+.site-footer .info-entreprise .coordonnées .coordonnée3 {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    color: #C2D0DD;
+}
+
+.site-footer .info-entreprise .coordonnées .moyens-contact p {
+    color: #C2D0DD;
+    font-size: small;
+}
+
+.site-footer .info-legale {
+    display: flex;
+    justify-content: center;
+    gap: 750px;
+    color: #C2D0DD;
+    margin-top: 48px;
+    font-size: small;
+}
+
+.site-footer .info-legale .liens-legaux {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .site-header .container .nav-list {
+        display: none;
+    }
+
+    .site-header .menu {
+        display: block;
+    }
+
+    .site-header .container {
+        display: block;
+    }
+
+    .site-header .container .logo-menu {
+        display: flex;
+    }
+
+
+
+    .site-main .hero .container {
+        display: block;
+    }
+
+    .hero .bar {
+        display: block;
+    }
+
+    .site-main .hero .container .buttons {
+        display: block;
+    }
+
+    .services {
+        display: block;
+    }
+
+    .services .list-services {
+        display: block;
+    }
+
+    .choisir {
+        display: block;
+    }
+
+    .choisir .atouts .avantages .group1 {
+        display: block;
+    }
+
+    .choisir .atouts .avantages .group2 {
+        display: block;
+        justify-content: flex-start;
+    }
+
+
+
+
+    .site-footer .info-entreprise {
+        display: block;
+    }
+
+    .site-footer .info-legale {
+        display: block;
+    }
+}
